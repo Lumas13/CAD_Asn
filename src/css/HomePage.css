@@ -1,0 +1,133 @@
+/* Lost Items Section */
+.lost-items-section {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.lost-items-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Lost Items Cards Container */
+.lost-items-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+  gap: 20px; /* Space between cards */
+  margin-top: 20px;
+  max-width: 1200px; /* Limit total width of the grid */
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+
+/* Individual Card Styling */
+.lost-item-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  max-width: 250px; /* Limit card width */
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+}
+
+.lost-item-card:hover {
+  transform: translateY(-8px); /* Elevates the card slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.lost-item-card img {
+  width: 100%;
+  height: 150px; /* Reduce height to keep the card compact */
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.lost-item-card h3 {
+  font-size: 1.1rem; /* Adjust text size */
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.lost-item-card p {
+  font-size: 0.9rem; /* Adjust text size */
+  color: #555;
+  margin-bottom: 8px;
+}
+
+/* Search Filter Section */
+.search-filter-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.search-filter-section input {
+  width: 50%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.search-filter-section select {
+  width: 20%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+/* Pagination Controls */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.pagination button:hover {
+  background-color: #ddd;
+}
+
+.pagination .active {
+  background-color: #6aa84f;
+  color: white;
+  font-weight: bold;
+}
+
+.pagination .arrow {
+  font-size: 1.25rem;
+  padding: 6px 10px;
+  font-weight: bold;
+  background-color: transparent;
+  color: #6aa84f;
+  cursor: pointer;
+}
+
+.pagination .arrow:hover {
+  color: #3e7727;
+}
+

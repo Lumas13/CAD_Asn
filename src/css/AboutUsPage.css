@@ -1,0 +1,160 @@
+/* About Us Page Styling */
+.about-us-page .about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* Space between text and image */
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-us-page .text-content {
+  width: 50%;
+  text-align: left;
+}
+
+.about-us-page .text-content h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-us-page .text-content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.about-us-page .image-content {
+  width: 40%;
+  margin-left: 50px;
+}
+
+.about-us-page .image-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section Styling */
+.about-us-page .contact-section {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.about-us-page .contact-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.about-us-page .contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-page .contact-info p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.about-us-page .contact-info p strong {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.about-us-page .contact-info p i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+.about-us-page .cta {
+  margin-top: 30px;
+  font-size: 1.2rem;
+}
+
+.about-us-page .cta a {
+  color: #6aa84f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about-us-page .cta a:hover {
+  text-decoration: underline;
+}
+
+/* Subscription Form Styling */
+.about-us-page .email-subscription {
+  background-color: #f1f1f1;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 8px;
+}
+
+.about-us-page .email-subscription h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-us-page .email-subscription p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.about-us-page .subscription-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-us-page .subscription-form input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 60%;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+}
+
+.about-us-page .subscription-form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #6aa84f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.about-us-page .subscription-form button:disabled {
+  background-color: #aaa;
+}
+
+.about-us-page .confirmation-message {
+  font-size: 1.2rem;
+  color: #4caf50;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #e8f5e9;
+}

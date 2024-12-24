@@ -1,0 +1,143 @@
+/* General Page Styles */
+.manage-items-page {
+  padding: 20px;
+}
+
+/* Table Styles */
+.manage-items-page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.manage-items-page th,
+.manage-items-page td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.manage-items-page th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.manage-items-page td {
+  background-color: #fff;
+}
+
+/* Button Styles */
+.manage-items-page button {
+  background-color: #ff6666; 
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px; 
+}
+
+.manage-items-page button:hover {
+  background-color: #cc0000;
+}
+
+/* Select Dropdown Styles */
+.manage-items-page select {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+/* Edit Modal Styles */
+.edit-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; 
+}
+
+.edit-modal form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 350px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form Input and Textarea Styles */
+.edit-modal input,
+.edit-modal textarea,
+.edit-modal select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.edit-modal textarea {
+  resize: vertical; 
+  height: 120px; 
+}
+
+/* Button Styles in Edit Modal */
+.edit-modal button {
+  width: 100%;
+  padding: 10px;
+  background-color: #6aa84f; 
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px; 
+  margin-bottom: 10px; 
+}
+
+.edit-modal button:hover {
+  background-color: #5a9447;
+}
+
+/* Cancel Button Style */
+.edit-modal button[type="button"] {
+  background-color: #ccc; 
+}
+
+.edit-modal button[type="button"]:hover {
+  background-color: #aaa;
+}
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  color: black;
+  border-radius: 5px;
+}
+
+.pagination button:hover {
+  background-color: #ddd;
+}
+
+.pagination .active {
+  background-color: #6aa84f;
+  color: white;
+}
+
