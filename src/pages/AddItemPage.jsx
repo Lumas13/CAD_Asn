@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../css/AddItemPage.css";
+import "../css/AddItemPage.css"; 
 
 function AddItemPage() {
   const [itemName, setItemName] = useState("");
